@@ -28,7 +28,6 @@ def sqrt_recursive(number, start_number, last_number):
         last_number = sq_root
         return sqrt_recursive(number, start_number, last_number)
     elif math.isclose(sq_root * sq_root, number, abs_tol=0.1) or math.isclose(start_number, last_number, abs_tol=0.05):
-        # sq_root = round(sq_root, 0)
         return math.floor(sq_root)
     elif sq_root < 1:
         return number
