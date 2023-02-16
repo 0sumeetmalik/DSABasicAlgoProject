@@ -58,7 +58,6 @@ if __name__ == '__main__':
 
     """
     3 Different test conditions
-    
     """
     # Negative number input
     print("Pass" if (None == sqrt(-1)) else "Fail")
