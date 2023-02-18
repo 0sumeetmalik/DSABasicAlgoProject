@@ -3,10 +3,9 @@ Building a Trie in Python
 1. Finding a Prefix
 2. Finding suffix which starts with prefix letter
 3. Printing all suffix with prefix
+
+Time complexity will be O(n *m ) where n is number of words and m is max number of letter in a word
 """
-import pysnooper
-
-
 ## Represents a single node in the Trie
 
 class TrieNode:
